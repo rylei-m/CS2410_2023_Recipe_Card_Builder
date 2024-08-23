@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <!--<meta charset="UTF-8">-->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" type="text/css" href="recipe.css">
+            <script src="script.js" defer></script>
+            <title>RM World Recipeace</title>
+        </head>
+
+    <body>    
+        <div class= "container">
+            <div class= "top">
+                <h1>World Recipeace</h1>
+                    <p><b>By: Rylei Mindrum | A02352206</b></p>
+            </div> <!--top-->
+            <div class="main">
+                
+                <section id="recipe_form">
+                    <div class="form_color">
+                        <h2>Add A Recipe</h2>
+                            <div class="form1">
+                                <form id="recipeForm">
+                                    <label>
+                                        Recipe Name: <input type="text" id="recipeName" aria-required="true" required>
+                                    </label>
+                            
+                                    <h2>Ingredients</h2>
+                                    <div id="ingredientsList">
+                                        <!-- Ingredients will be added here dynamically -->
+                                    </div>
+                                    <input type="text" id="newIngredient" aria-label="New Ingredient">
+                                    <button type="button" id="addIngredientBtn">Add Ingredient</button>
+                            
+                                    <h2>Instructions</h2>
+                                    <div id="instructionsList">
+                                        <!-- Instructions will be added here dynamically -->
+                                    </div>
+                                    <textarea id="newInstruction" aria-label="New Instruction"></textarea>
+                                    <button type="button" id="addInstructionBtn">Add Instruction</button>
+                            
+                                    <button type="button" id="exportRecipeBtn" onclick="addToEntryBox()">Export Recipe</button>
+                                    <button type="button" id="resetFieldsBtn">Start New Recipe</button>
+
+
+                                </form>
+                                <script src="script.js"></script>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id= "featured_recipes">
+                    <div class="feature_color">
+                        <h2>Featured Recipes</h2>
+                        <div class= "features">
+                            <ul>
+                                <h3>Corn Dog Bites</h3>
+                                <p> <ul>cooking spray</ul>
+                                    <ul>1 (16 ounce) package hot dogs</ul>
+                                    <ul>1 cup all-purpose flour</ul>
+                                    <ul>1 cup yellow corn meal</ul>
+                                    <ul>½ cup white sugar</ul>
+                                    <ul>2 teaspoons baking powder</ul>
+                                    <ul>1 teaspoon salt</ul>
+                                    <ul>1 cup milk</ul>
+                                    <ul>1 egg</ul>
+                                    <ul>¼ cup vegetable oilx</ul>
+                                </p>
+                                <p> <ul>Step 1:</ul>
+                                    <ul>Preheat oven to 425 degrees F (220 degrees C). Spray 2 24-cup mini-muffin pans with cooking spray.</ul>
+                                    <ul>Step 2:</ul>
+                                    <ul>Cut hot dogs into 4 pieces crosswise and cut each piece lengthwise to make 8 pieces per hot dog.</ul>
+                                    <ul>Step 3:</ul>
+                                    <ul>Whisk flour, corn meal, sugar, baking powder, and salt in a bowl; stir in milk, egg, and vegetable oil to make a smooth batter. Stir chopped hot dogs into batter and spoon the mixture into prepared mini muffin cups.</ul>
+                                    <ul>Step 4:</ul>
+                                    <ul>Bake in the preheated oven until the corn muffins are lightly browned and set in the center, about 8 minutes.</ul>
+                                </p>
+                                <sub>from: https://www.allrecipes.com/recipe/222277/corn-dog-bites/</sub>
+                            </ul>
+                        </div>
+                        <div class="features">
+                            <ul>
+                                <h3>Mini Bagel Pizzas</h3>
+                                <p> <ul>8 mini bagels, split</ul>
+                                    <ul>¼ cup pizza sauce</ul>
+                                    <ul>⅓ cup shredded pizza cheese blend</ul>
+                                    <ul>16 slices turkey pepperoni (such as Hormel)</ul>
+                                </p>
+                                <p>
+                                    <ul>Step 1:</ul>
+                                    <ul>Preheat the oven to 425 degrees F (220 degrees C). Line a baking sheet with aluminum foil.</ul>
+                                    <ul>Step 2:</ul>
+                                    <ul>Arrange bagels, cut-side up, on the prepared baking sheet. Spoon a thin layer of pizza sauce over each bagel half and sprinkle with pizza cheese. Place two pepperoni slices onto each bagel half.</ul>
+                                    <ul>Step 3:</ul>
+                                    <ul>Bake in the preheated oven until cheese is melted and pepperoni is lightly browned, about 6 minutes.</ul>
+                                </p>
+                                <sub>from: https://www.allrecipes.com/recipe/232789/easy-mini-bagel-pizzas/</sub>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section id="export1">
+                    <div class="exportcolor">
+                        <h2>Your Recipes</h2>
+                            <div id="recipeContainer"></div>    
+                            <ul>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div> <!--container-->
+    </body>
+</html>

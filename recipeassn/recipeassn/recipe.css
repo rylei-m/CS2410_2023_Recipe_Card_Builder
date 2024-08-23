@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+*
+{
+    margin :0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-position: 1/*#def0ff*/;
+    background: transparent;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #053109
+}
+
+/*background for title and name*/
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    min-height: 1000px;
+    border: 3px solid #000000; 
+    background-color: rgb(234, 255, 228);
+    margin: 50px;
+    box-shadow: 0 35 px 55 px rgba(0, 0, 0, 0.1);
+}
+
+/*name, background img*/
+.top {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 30px;
+}
+
+/*gradients*/
+.feature_color {
+    background: radial-gradient(#f6ffbe, #053109);
+}
+.form_color {
+    background: radial-gradient(#f6ffbe, #053109);
+}
+.exportcolor {
+    background: radial-gradient(#f6ffbe, #053109);
+}
+
+/*featured recipes*/
+.features {
+    margin: 35px;
+    padding: 30px;
+    width: 500px;
+    height:680px;
+    border: 1px solid #000000; 
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    background-color: rgb(234, 255, 228);
+}
+
+/*the form that allows user to add recipe*/
+.form1 {
+    margin: 10px;
+    padding: 10px;
+    width: flex;
+    height: flex;
+    border: 1px solid #000000; 
+    display: inline-block;
+    justify-content: space-around;
+    vertical-align: top;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    background-color: rgb(234, 255, 228);
+}
+
+/*writes recipes on website dynamically*/
+.export1 {
+    margin: 30px;
+    padding: 10px;
+    width: 500px;
+    height: flex;
+    max-width: 500px;
+    max-height: 645px;
+    border: 1px solid #000000; 
+    display: inline-block;
+    justify-content: space-around;
+    vertical-align: top;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    background-color: rgb(234, 255, 228);
+}
+
+/* Section Styles */
+section {
+margin: 20px;
+padding: 0px;
+border: 2px solid #000000;
+}
+
+#info {
+display: flex;
+flex-direction: row;
+}
+
+
